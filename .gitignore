@@ -1,0 +1,11 @@
+# R
+.Rhistory
+.RData
+.Rproj.user
+renv/library/
+
+# Data
+data/
+
+# Results
+results/
