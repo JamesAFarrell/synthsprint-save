@@ -119,7 +119,7 @@ plots <- imap(surveys_clean, function(df, level) {
 # COMBINE
 #--------------------------------------------------
 
-plot_survey_cramer <- wrap_plots(plots, ncol = 2) +
+plot_survey_cramer <- wrap_plots(plots, ncol = 4) +
   plot_layout(guides = "collect") +
   plot_annotation(
     title    = "Household Survey — Association Matrix",
@@ -139,6 +139,6 @@ ggsave(
   filename = here::here("results", "survey_cramers_v.png"),
   plot     = plot_survey_cramer,
   height   = 8,
-  width    = 9,
+  width    = 18,
   dpi      = 200
 )
