@@ -32,7 +32,8 @@ synthsprint-save/
 │   ├── 02_clean_timeseries.R               # Clean and standardise electricity consumption time series
 │   ├── 03_survey_cramers_v.R               # Assess survey variable associations using Cramér’s V
 │   ├── 04_consumption_daily_average.R      # Calculate average daily household electricity consumption
-│   └── 05_consumption_quality_metrics.R    # Evaluate quality of sythetic and real consumption data
+│   ├── 05_consumption_quality_metrics.R    # Evaluate quality of sythetic and real consumption data
+│   └── 06_distribution_comparison_q8_27.R  # Comparing distributions for Q8.27 across fidelity levels
 │
 ├── results/                                # Generated analytical outputs (gitignored)
 ├── renv/                                   # Project-local R package library managed by renv
